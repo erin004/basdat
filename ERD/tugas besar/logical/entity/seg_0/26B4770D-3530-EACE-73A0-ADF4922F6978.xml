@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26B4770D-3530-EACE-73A0-ADF4922F6978" name="barang">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:45:21 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="80969B26-9AFE-7AF5-9267-E27210E98B02">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:45:30 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_barang" id="3C2BE565-4D6E-CFEC-9C8E-07A093B2EDB7">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:46:03 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="F3783FBD-6A65-F3C1-EAF4-18638761EE80">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:46:22 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_barang" id="911EC6FA-DFA0-B8D7-4A40-FA380B003668">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:48:23 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="merk" id="42ACF8AA-30C4-C41B-9D95-FF943C5F9793">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:48:49 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_beli" id="F8D2FA11-33C9-4470-2B70-FB0C03E0943B">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:49:16 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_jual" id="8E030817-5AD2-0F4A-7B53-C0AF57F8BD2E">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:49:37 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="satuan_barang" id="8D3F0508-9532-010B-EEA7-E9F32B86A1C2">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:50:07 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok" id="E83DD2B2-3466-F24E-1E6E-B910B3ECE882">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:50:30 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_input" id="F75FBE59-9F77-D6B9-9DC9-D4F222EF247C">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:50:47 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_update" id="8DB908A2-5BFA-1299-3D9F-114EE224B833">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:51:30 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori1" id="2D7ECCEF-286E-8CDC-0658-7D1830F964BA">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:37:59 UTC</createdTime>
+<generatorID>CE814433-A774-4DA7-66F2-2DC8B3CFB252</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<referedAttribute>A5498DAD-A46B-9F91-B21C-AABC27857944</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penjualan" id="3BB37EEC-F47C-BB0E-260B-0BC199E7ED94">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:38:50 UTC</createdTime>
+<generatorID>3B38CBDC-2746-6444-A9FF-94B73DA543CE</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<referedAttribute>99D7576A-9F4E-3F1B-7FF1-E0EF326B3BF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="625CD39C-722E-1D47-4617-E8BA53149568" name="barang PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:45:59 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80969B26-9AFE-7AF5-9267-E27210E98B02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

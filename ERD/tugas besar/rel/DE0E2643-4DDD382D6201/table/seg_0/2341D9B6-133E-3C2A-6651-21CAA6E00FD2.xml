@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2341D9B6-133E-3C2A-6651-21CAA6E00FD2" name="pemesanan">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>1D6F2B52-62A3-EAC7-FBD4-D81933259E68</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penjualan" id="78D1DC7F-C397-2E9A-7E4E-763FFE6F4632">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>99D7576A-9F4E-3F1B-7FF1-E0EF326B3BF7</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_barang" id="D3B35986-C9B7-6D46-71E6-C68072B5AC3A">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>28B71EF0-C6DC-4960-1FD6-7ED436389FB5</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_member" id="DF1A2444-F5C3-74A0-FB98-1177BA485F91">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>1B6EB2B1-823C-F10A-9EF9-59FF729CDDBF</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="BF09FAFE-2C4C-1D01-CFE3-B2585B9CAC2B">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>9179DB65-51DA-1A44-D4DE-F3402B1B03E6</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="E365DC2B-A8E5-C183-7325-F63FEF6B0EF4">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>A4101399-E627-9A06-6A7A-0F180D2E70B6</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_input" id="DC3E27FC-7EA1-583F-B12F-CF2B931F0467">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>C673257F-3409-0FB3-3635-DF55C77625A4</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79DD622-5D4D-1320-528C-AEB9498A0629" name="pemesanan_PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>D869003C-1D38-4706-09CC-9BBA0C777958</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78D1DC7F-C397-2E9A-7E4E-763FFE6F4632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

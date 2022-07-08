@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="573A7DB7-BCE5-2D83-CFC7-D075C8F81D33" name="nota">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>49B5AD59-F2AB-586D-1BEA-AF61D7047468</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nota" id="821E40C5-CAA9-8843-8A13-FDEB549C8C4F">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>C085ADA2-3325-20EC-6DB4-EAE238333CB8</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_barang" id="9C430795-DB4E-079B-81A5-0941E22AA6C6">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>E0A3EBEF-31A0-D2C2-5535-E9AF574BB55C</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_member" id="78DC0EB5-DAF9-C57D-74AB-D569278C54D7">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>144F4BB3-0396-0213-AA6E-1C70047BDB47</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="12474D67-F1AC-4E69-CB33-32B521752914">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>65A6C320-3C6B-86EE-5C74-B0A870B4D6A0</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_input" id="58879F15-2343-C460-2A42-1274A49B6D91">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>75463477-02EE-9DB1-F001-411624457C00</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="periode" id="07525C20-349F-01B0-22E6-4CA15573AED6">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>B5E1D026-24D3-E4F8-FC66-CE7B7D9273D4</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pemesanan_id_penjualan" id="C7D02415-28AC-622F-6122-711B3E0D9B84">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>5064DE59-2C90-73BA-6013-557F9DD66497</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF0DECB5-271D-C1B7-03C8-87AE5EC014F3" referredColumn="78D1DC7F-C397-2E9A-7E4E-763FFE6F4632"/>
+</associations>
+</Column>
+<Column name="member_id_member" id="4CE5F699-B35A-9FE9-A875-8D3AEC5E8A8F">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>B0C2C272-85CA-FD13-025A-0BE8A01E8B29</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEE4B34F-690D-81C2-4D96-05E0C1E30D50" referredColumn="BB4289DC-6FFE-AE91-62BA-E3DD23544F93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51D24B35-5492-0F37-B6B5-C15E6115A858" name="nota_PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>9C08454A-6B64-F885-C062-EC9E17E1D36A</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="821E40C5-CAA9-8843-8A13-FDEB549C8C4F"/>
+<colUsage columnID="C7D02415-28AC-622F-6122-711B3E0D9B84"/>
+<colUsage columnID="4CE5F699-B35A-9FE9-A875-8D3AEC5E8A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B60294E-A844-C909-69E0-743EA0354392" name="nota_pemesanan_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>109CEC9C-F9CE-8E07-BAE2-E7980B36ECB6</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7D02415-28AC-622F-6122-711B3E0D9B84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1423489-23C8-86F0-105F-11EFB9831C91" name="nota_member_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>DD62321A-BF65-F62D-4685-A748CD8902DF</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE5F699-B35A-9FE9-A875-8D3AEC5E8A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

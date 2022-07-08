@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A641730C-6D55-D4B4-3E28-63067FAC8433" name="kategori">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:43:17 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kategori" id="A5498DAD-A46B-9F91-B21C-AABC27857944">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:43:31 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kategori" id="0CA6592D-DB2E-80B1-E75D-7E7CA53646CB">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:44:12 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_input" id="1B7E65AE-52AB-837F-338B-97604BA9CF61">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:44:37 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_toko" id="AB4D576C-4D49-13CB-77DA-EC1410105C20">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:37:08 UTC</createdTime>
+<generatorID>0AA4C098-B23C-248B-B543-57248F2C3C8B</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<referedAttribute>B6A2E1C9-2F56-0884-ECC4-ED8037A9EFDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD86DB18-4369-7B6D-6EA3-A52F7714F0BD" name="kategori PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:44:09 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<engineerTo>
+<item key="DE0E2643-0AB6-AC20-8BF5-4DDD382D6201" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5498DAD-A46B-9F91-B21C-AABC27857944</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

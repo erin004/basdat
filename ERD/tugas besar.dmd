@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tugas besar" id="E6A945D6-2AE6-4A61-03FC-D235D2BED5EE" version="3.5">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 10:07:16 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E6A945D6-2AE6-4A61-03FC-D235D2BED5EE</designId>
+</OSDM_Design>

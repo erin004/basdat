@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0724B19A-7D4D-153B-2323-221CB37CC6CC" containerWithKeyObject="34A30EA8-DBA4-A0CA-68E5-2111123CBB9D" localFKIndex="9B7CEAA0-9721-0A79-E236-BBCAC9890A6C" name="toko_member_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>149753AB-5331-29B3-7E65-152E59539791</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<referredTableLongName>member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C881C51C-FB5D-E9D8-4B56-1C6BA2BA5D9A</referredTableID>
+<keyObject>F7DEEC4A-E87F-F9D7-4379-3809B2DE2132</keyObject>
+<referredKeyID>F7DEEC4A-E87F-F9D7-4379-3809B2DE2132</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_member</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

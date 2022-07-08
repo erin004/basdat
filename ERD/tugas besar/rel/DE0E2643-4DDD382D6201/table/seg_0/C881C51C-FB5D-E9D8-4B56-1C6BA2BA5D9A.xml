@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C881C51C-FB5D-E9D8-4B56-1C6BA2BA5D9A" name="member">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>4770F80E-440A-A54C-810D-92933A1848A6</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_member" id="BB4289DC-6FFE-AE91-62BA-E3DD23544F93">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>2810893C-30CC-AF6A-FA24-79111D8AD882</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_member" id="642CB9C6-F480-795D-D23D-BCC7DAFC3CD5">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>E61E3D8D-D768-6D39-FC0A-31E91C3D63AC</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat_member" id="BE480DFD-48D0-171C-103A-50DC363D66A0">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>84D40078-F362-FA58-0F2F-524AE94CA27B</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telepon" id="D5B7AD51-3FF2-30BE-63AB-1381896DF599">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>2D9FE3F8-AE62-7FF1-3454-C3605097F22C</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A52BB448-29E8-82DD-280C-2D0F67436AE1">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>CE49F1A6-9A92-14F6-F2AE-DF0C4D4AA8F4</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gambar" id="1A3B5CC2-AA74-054E-FDE3-EF15DA7430A9">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>225624C4-A495-837F-21DC-33FBB63C7924</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIK" id="D28A666D-318C-9071-0514-A3925B04CD0F">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>19C3C5D2-1DE5-5806-8189-532E69C4E599</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_id_login" id="FF9C2ABF-4B39-6980-CB45-AD9CEF87EB7F">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>2000CD34-5527-6C3A-839C-9B57D9C7AAF6</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61D8A0F2-B94D-EC40-4B36-CA4269320F38" referredColumn="C93AE372-EBA3-5D6E-9A0D-0791AF022898"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7DEEC4A-E87F-F9D7-4379-3809B2DE2132" name="member_PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>76039E84-84F0-AD5D-0C87-250BD6D7913C</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4289DC-6FFE-AE91-62BA-E3DD23544F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="068405C0-B39F-442A-EF91-D284B38484C4" name="member__IDX">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DF01B2CC-D423-C4B2-F628-07E244812908</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF9C2ABF-4B39-6980-CB45-AD9CEF87EB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="500CF712-CD94-AD62-B0CD-7FEADD621B63" name="member_login_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>DF01B2CC-D423-C4B2-F628-07E244812908</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9C2ABF-4B39-6980-CB45-AD9CEF87EB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

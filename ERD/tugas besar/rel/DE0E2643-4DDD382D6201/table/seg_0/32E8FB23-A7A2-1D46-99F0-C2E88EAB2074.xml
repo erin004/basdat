@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32E8FB23-A7A2-1D46-99F0-C2E88EAB2074" name="login">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>FD3CA63E-D578-78E8-A214-B5DF58EBAD3D</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_login" id="C93AE372-EBA3-5D6E-9A0D-0791AF022898">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>13047F3C-9C94-9A20-5EE8-B1041E360E64</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user" id="26A690D7-FE23-C024-92A0-086BF5BB35C2">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>5D93BF99-D293-B677-1AC4-53A3D9E4CEAF</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass" id="E026EEF3-C691-0711-698C-222FBDC78556">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>73D6CE01-2697-7129-058C-1ACC5F807940</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_id_member" id="19326627-1F3D-96F0-C5C3-E6EFB713E288">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>5BCA0C1C-4FD5-12D2-68F8-C7507BA14D36</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C5E4162-CE41-7DDD-66ED-793A342E2146" referredColumn="BB4289DC-6FFE-AE91-62BA-E3DD23544F93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3632EF8-6D47-B502-A03E-B1FCC1BA2C1E" name="login_PK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>6C0A3310-A167-B672-B422-2F44EF4C2827</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C93AE372-EBA3-5D6E-9A0D-0791AF022898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B98AB036-E7F4-51C6-F76C-BE66AE930B9E" name="login__IDX">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DF01B2CC-D423-C4B2-F628-07E244812908</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="19326627-1F3D-96F0-C5C3-E6EFB713E288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E6465BF-C173-8BB5-FA93-13C9B65E3E0D" name="login_member_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>DF01B2CC-D423-C4B2-F628-07E244812908</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19326627-1F3D-96F0-C5C3-E6EFB713E288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F88DFB5C-049C-99BF-64FC-AFF2A298A920" containerWithKeyObject="CBF01FB6-F1BD-3891-A8C6-D9A9326A526A" localFKIndex="3D76B903-2CBD-E9B5-5B00-A310815C457B" name="barang_pemesanan_FK">
+<createdBy>Norman</createdBy>
+<createdTime>2022-05-27 11:43:50 UTC</createdTime>
+<generatorID>3B38CBDC-2746-6444-A9FF-94B73DA543CE</generatorID>
+<ownerDesignName>tugas besar</ownerDesignName>
+<referredTableLongName>pemesanan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2341D9B6-133E-3C2A-6651-21CAA6E00FD2</referredTableID>
+<keyObject>F79DD622-5D4D-1320-528C-AEB9498A0629</keyObject>
+<referredKeyID>F79DD622-5D4D-1320-528C-AEB9498A0629</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_penjualan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
